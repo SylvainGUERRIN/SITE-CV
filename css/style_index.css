@@ -1,0 +1,65 @@
+/*Bordures */
+#border{
+    background-color: #333333;
+    height: 705px;
+}
+/*Barres de navigation */ 
+#navbar_lg{
+    background-color: #36363e;
+    height: 100%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+#navbar_xs{
+    background-color: #36363e;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 150px;
+    margin-bottom: 0px;
+}
+a{
+    text-align: center;
+}
+.current_page_color{
+    color: white;
+}
+/*Contenu de la page */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+#contenu{
+    border-top-color: #2980b9;
+    border-top-width: 10px;
+    border-top-style: solid;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: 4px solid;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.05);
+}
+/*Media queries */
+@media (max-width: 992px){
+    img{
+      margin-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: auto;
+      height: auto;
+      float: left;
+    }
+}
+
+/* Couleurs a utiliser
+#36363e gris plus clair pour le menu
+#cdcdeb gris clair pour eclaicir les titres
+#333333 gris foncé pour les bords
+*/
