@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style_index.css">
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
     <body>
        <div class="container-fluid">
           
@@ -15,19 +16,21 @@
            <div id="border" class="col-md-1 hidden-sm hidden-xs">
            </div>
            
-           <nav id="navbar_lg" class="navbar col-lg-2 col-md-2 hidden-sm hidden-xs" role="navigation">
-               <div class="navbar-header">                       
+           <nav id="navbar_lg" class="navbar navbar-inverse col-lg-2 col-md-2 hidden-sm hidden-xs" role="navigation">
+               <div class="navbar-header row">                       
                    <img src="images/photo_cv.jpg" alt="photo">
-                   <a href="index.html" class="navbar-brand">SYLVAIN GUERRIN</a>
+                   <a href="index.html" class="navbar-brand col-md-12 col-lg-12">SYLVAIN<br/> <br/> GUERRIN</a>
                </div>
-                   <ul class="nav navbar-nav">
-                       <li class="current_page_item col-lg-12"><a href="index.html" title="Accueil"><div class="current_page_color"><i class="fas fa-home fa-3x"></i></div><br/>Accueil</a></li>
-                       <li class="col-lg-12"><a href="cv.html"><i class="fas fa-user-circle fa-3x"></i><br/>CV</a></li>
-                       <li class="col-lg-12"><a href="contact.html"><i class="fas fa-envelope fa-3x"></i><br/>Contact</a></li>
+                  <div class="container-fluid">
+                   <ul class="nav navbar-nav row">
+                       <li class="current_page_item col-lg-12 col-md-12"><a href="index.html" title="Accueil"><div class="current_page_color"><i class="fas fa-home fa-3x"></i></div></a></li>
+                       <li class="col-lg-12 col-md-12"><a href="cv.html" title="CV"><i class="fas fa-user-circle fa-3x"></i><br/></a></li>
+                       <li class="col-lg-12 col-md-12"><a href="contact.html" title="contact"><i class="fas fa-envelope fa-3x"></i><br/></a></li>
                    </ul>
+               </div>
            </nav>
-            
-           <nav id="navbar_xs" class="navbar hidden-lg hidden-md col-sm-12 col-xs-12" role="navigation">
+
+           <nav id="navbar_xs" class="navbar navbar-inverse hidden-lg hidden-md col-sm-12 col-xs-12" role="navigation">
                <div class="navbar-header">
                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
@@ -35,17 +38,17 @@
                     <span class="icon-bar"></span>
                    </button>                  
                    <img src="images/photo_cv.jpg" alt="photo">
-                   <a href="#" class="navbar-brand">SYLVAIN GUERRIN</a>
+                   <a href="#" class="navbar-brand col-sm-2">SYLVAIN<br/> <br/> GUERRIN</a>
                </div>
                <div class="collapse navbar-collapse">
                    <ul class="nav navbar-nav">
-                       <li><a href="#">Accueil</a></li>
-                       <li><a href="#">CV</a></li>
-                       <li><a href="#">Contact</a></li>
+                       <li class="current_page_item"><a href="index.html" title="Accueil"><div class="current_page_color"><i class="fas fa-home fa-3x"></i></div></a></li>
+                       <li class=""><a href="cv.html" title="CV"><i class="fas fa-user-circle fa-3x"></i><br/></a></li>
+                       <li class=""><a href="contact.html" title="contact"><i class="fas fa-envelope fa-3x"></i><br/></a></li>
                    </ul>
                </div>
            </nav>
-          
+              
            <div id="contenu" class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                
            </div>

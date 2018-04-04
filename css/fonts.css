@@ -1,0 +1,30 @@
+
+@font-face 
+{
+    font-family: 'BEBAS';
+    src: url('../fonts/BEBAS.eot');
+    src: url('../fonts/BEBAS.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BEBAS.woff') format('woff'),
+         url('../fonts/BEBAS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face 
+{
+    font-family: 'KGPrimaryLinedNOSPACE';
+    src: url('../fonts/KGPrimaryLinedNOSPACE.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face 
+{
+    font-family: 'Precursive_1_FREE';
+    src: url('../fonts/Precursive_1_FREE.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
