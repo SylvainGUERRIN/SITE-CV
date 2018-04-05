@@ -34,6 +34,9 @@ a{
 .current_page_color{
     color: white;
 }
+/*li.current_page_item a{
+    color: white;
+}*/
 
 /*Contenu de la page */
 html, body{
@@ -86,9 +89,6 @@ img.logo{
     li{
         padding-right: 20px;
     }
-    h1{
-        padding-top: 150px;
-    }
 }
 @media (max-width: 768px){
     img.logo{
@@ -110,31 +110,6 @@ img.logo{
         border-bottom-width: 10px;
         border-bottom-style: solid;
     }
-    h1{
-        padding-top: 150px;
-    }
-    #contenu{
-        padding-left: 0px;
-        margin-left: -10px;
-    }
-}
-
-/* texte qui défile*/
-.fondu{
-    display: none;
-    width: 400px;
-    margin: auto;
-    text-align: center;
-    font-family: 'BEBAS', sans-serif;
-    font-size: 40px;
-}
-
-img.profil{
-    padding-top: 25px;
-    padding-bottom: 20px;
-    /*border-radius: 20px;
-    border: 4px solid;
-    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.05);*/
 }
 
 /* Couleurs a utiliser
