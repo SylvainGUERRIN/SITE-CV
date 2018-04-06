@@ -1,7 +1,7 @@
 /*Bordures */
 #border{
     background-color: #333333;
-    height: 1165px;
+    height: 1005px;
 }
 /*Barres de navigation */ 
 #navbar_lg{
@@ -11,7 +11,7 @@
     margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 0px;
-    height: 1168px;
+    height: 1008px;
 }
 #navbar_xs{
     background-color: #36363e;
