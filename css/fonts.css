@@ -2,10 +2,10 @@
 @font-face 
 {
     font-family: 'BEBAS';
-    src: url('../fonts/BEBAS.eot');
-    src: url('../fonts/BEBAS.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BEBAS.woff') format('woff'),
-         url('../fonts/BEBAS.ttf') format('truetype');
+    src: url('/../fonts/BEBAS.eot');
+    src: url('/../fonts/BEBAS.eot?#iefix') format('embedded-opentype'),
+         url('/../fonts/BEBAS.woff') format('woff'),
+         url('/../fonts/BEBAS.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
