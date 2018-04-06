@@ -1,7 +1,7 @@
 /*Bordures */
 #border{
     background-color: #333333;
-    height: 715px;
+    height: 1165px;
 }
 /*Barres de navigation */ 
 #navbar_lg{
@@ -11,22 +11,19 @@
     margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 0px;
-    height: 718px;
+    height: 1168px;
 }
 #navbar_xs{
     background-color: #36363e;
     margin-left: 0px;
     margin-right: 0px;
-    height: 155px;
     margin-bottom: 0px;
 }
 .navbar-collapse{
     background-color: #36363e;
-    margin-right: -20px;
+    margin-right: 0px;
 }
-li{
-    text-align: center;
-}
+
 a{
     text-align: center;
     font-family: 'BEBAS', sans-serif;
@@ -34,9 +31,7 @@ a{
 .current_page_color{
     color: white;
 }
-/*li.current_page_item a{
-    color: white;
-}*/
+
 
 /*Contenu de la page */
 html, body{
@@ -65,6 +60,26 @@ img.logo{
 .navbar-brand{
     margin-bottom: 40px;
     font-size: 200%;
+}
+#identity{
+    font-size: 300%;
+    font-family: 'BEBAS', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#adresse, #mail{
+    font-family: 'Precursive_1_FREE', sans-serif;
+    font-size: 200%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#telephone{
+    width: 50%;
+}
+li{
+    text-align: center;
 }
 /*Media queries */
 @media (max-width: 992px){
@@ -106,9 +121,9 @@ img.logo{
     }
     .navbar-collapse{
         padding-left: -20px;
-        border-bottom-color: #2980b9;
-        border-bottom-width: 10px;
-        border-bottom-style: solid;
+    }
+    #mail{
+        font-size: 100%;
     }
 }
 

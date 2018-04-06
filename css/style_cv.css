@@ -1,7 +1,7 @@
 /*Bordures */
 #border{
     background-color: #333333;
-    height: 715px;
+    height: 1000px;
 }
 /*Barres de navigation */ 
 #navbar_lg{
@@ -11,18 +11,17 @@
     margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 0px;
-    height: 718px;
+    height: 1003px;
 }
 #navbar_xs{
     background-color: #36363e;
     margin-left: 0px;
     margin-right: 0px;
-    height: 155px;
     margin-bottom: 0px;
 }
 .navbar-collapse{
     background-color: #36363e;
-    margin-right: -20px;
+    margin-right: 0px;
 }
 li{
     text-align: center;
@@ -34,9 +33,6 @@ a{
 .current_page_color{
     color: white;
 }
-/*li.current_page_item a{
-    color: white;
-}*/
 
 /*Contenu de la page */
 html, body{
@@ -65,6 +61,39 @@ img.logo{
 .navbar-brand{
     margin-bottom: 40px;
     font-size: 200%;
+}
+h1{
+    font-family: 'BEBAS', sans-serif;
+}
+strong{
+    font-family: 'Precursive_1_FREE', sans-serif;
+}
+.bootstrap{
+    width: 40%;
+}
+.javascript{
+    width: 30%;
+}
+.jquery{
+    width: 30%;
+}
+.php{
+    width: 20%;
+}
+.mysql{
+    width: 20%;
+}
+.git{
+    width: 40%;
+}
+.webdesign{
+    width: 60%;
+}
+.graphisme{
+    width: 60%;
+}
+.illustration{
+    width: 60%;
 }
 /*Media queries */
 @media (max-width: 992px){
@@ -106,9 +135,6 @@ img.logo{
     }
     .navbar-collapse{
         padding-left: -20px;
-        border-bottom-color: #2980b9;
-        border-bottom-width: 10px;
-        border-bottom-style: solid;
     }
 }
 
