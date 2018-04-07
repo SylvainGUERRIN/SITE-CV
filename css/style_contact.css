@@ -26,7 +26,8 @@
 
 a{
     text-align: center;
-    font-family: 'bebas_kairegular', sans-serif;
+    font-family: 'BEBAS', sans-serif;
+    font-weight: bold;
 }
 .current_page_color{
     color: white;
@@ -63,10 +64,11 @@ img.logo{
 }
 #identity{
     font-size: 300%;
-    font-family: 'bebas_kairegular', sans-serif;
+    font-family: 'BEBAS', sans-serif;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-weight: bold;
 }
 #adresse, #mail{
     font-family: 'Precursive_1_FREE', sans-serif;

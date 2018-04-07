@@ -1,12 +1,19 @@
 
 @font-face {
     font-family: 'bebas_kairegular';
-    src: url('bebaskai-regular-webfont.woff2') format('woff2'),
-         url('bebaskai-regular-webfont.woff') format('woff'),
-         url('bebaskai-regular-webfont.ttf') format('ttf');
+    src: url('../fonts/bebaskai-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebaskai-regular-webfont.woff') format('woff'),
+         url('../fonts/bebaskai-regular-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
+}
+@font-face {
+    font-family: 'BEBAS';
+    src: url('../fonts/BEBAS.eot') format('eot'),
+         url('../fonts/BEBAS.svg') format('svg'),
+         url('../fonts/BEBAS.ttf') format('truetype'),
+         url('../fonts/BEBAS.woff') format('woff');
 }
 
 @font-face 
