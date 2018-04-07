@@ -28,7 +28,7 @@ li{
 }
 a{
     text-align: center;
-    font-family: 'BEBAS', sans-serif;
+    font-family: 'bebas_kairegular', sans-serif;
 }
 .current_page_color{
     color: white;
@@ -63,7 +63,7 @@ img.logo{
     font-size: 200%;
 }
 h1{
-    font-family: 'BEBAS', sans-serif;
+    font-family: 'bebas_kairegular', sans-serif;
 }
 strong{
     font-family: 'Precursive_1_FREE', sans-serif;

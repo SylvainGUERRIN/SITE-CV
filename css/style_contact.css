@@ -1,7 +1,7 @@
 /*Bordures */
 #border{
     background-color: #333333;
-    height: 1005px;
+    height: 1045px;
 }
 /*Barres de navigation */ 
 #navbar_lg{
@@ -11,7 +11,7 @@
     margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 0px;
-    height: 1008px;
+    height: 1048px;
 }
 #navbar_xs{
     background-color: #36363e;
@@ -26,7 +26,7 @@
 
 a{
     text-align: center;
-    font-family: 'BEBAS', sans-serif;
+    font-family: 'bebas_kairegular', sans-serif;
 }
 .current_page_color{
     color: white;
@@ -63,7 +63,7 @@ img.logo{
 }
 #identity{
     font-size: 300%;
-    font-family: 'BEBAS', sans-serif;
+    font-family: 'bebas_kairegular', sans-serif;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -78,8 +78,14 @@ img.logo{
 #telephone{
     width: 50%;
 }
-li{
+li, label{
     text-align: center;
+}
+label{
+    font-size: 120%;  
+}
+legend{
+    font-size: 140%;
 }
 /*Media queries */
 @media (max-width: 992px){
@@ -125,6 +131,10 @@ li{
     #mail{
         font-size: 100%;
     }
+    label{
+    font-size: 80%;
+    
+}
 }
 
 /* Couleurs a utiliser

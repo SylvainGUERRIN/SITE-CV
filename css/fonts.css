@@ -1,20 +1,9 @@
 
-@font-face 
-{
-    font-family: 'BEBAS';
-    src: url('/../fonts/BEBAS.eot');
-    src: url('/../fonts/BEBAS.eot?#iefix') format('embedded-opentype'),
-         url('/../fonts/BEBAS.woff') format('woff'),
-         url('/../fonts/BEBAS.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face 
-{
-    font-family: 'KGPrimaryLinedNOSPACE';
-    src: url('../fonts/KGPrimaryLinedNOSPACE.ttf') format('truetype');
+@font-face {
+    font-family: 'bebas_kairegular';
+    src: url('bebaskai-regular-webfont.woff2') format('woff2'),
+         url('bebaskai-regular-webfont.woff') format('woff'),
+         url('bebaskai-regular-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
