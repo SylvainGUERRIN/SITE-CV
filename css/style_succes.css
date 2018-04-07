@@ -1,0 +1,46 @@
+/*Bordures */
+#border{
+    background-color: #333333;
+    height: 765px;
+}
+#border_xs{
+    background-color: #333333;
+    height: 150px;
+}
+h1, p, a{
+    text-align: center;
+}
+h1{
+    padding-top: 100px;
+    font-family: 'BEBAS', sans-serif;
+}
+p{
+    font-family: 'Precursive_1_FREE', sans-serif;
+    padding-top: 30px;
+}
+a{
+    
+}
+
+/*Media Queries */
+@media(max-width: 992px){
+    h1{
+        padding-top: 60px;
+    }
+}
+@media(max-width: 768px){
+    h1{
+        padding-top: 40px;
+    }
+}
+/*Contenu de la page */
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* Couleurs a utiliser
+#36363e gris plus clair pour le menu
+#cdcdeb gris clair pour eclaicir les titres
+#333333 gris foncé pour les bords
+*/
