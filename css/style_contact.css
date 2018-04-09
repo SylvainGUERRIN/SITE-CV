@@ -1,7 +1,7 @@
 /*Bordures */
 #border{
     background-color: #333333;
-    height: 1045px;
+    height: 1195px;
 }
 /*Barres de navigation */ 
 #navbar_lg{
@@ -11,7 +11,7 @@
     margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 0px;
-    height: 1048px;
+    height: 1198px;
 }
 #navbar_xs{
     background-color: #36363e;
@@ -32,7 +32,12 @@ a{
 .current_page_color{
     color: white;
 }
+/*style pour verifications formulaire */
 
+.erreur-message{
+    display: none;
+    color: #ff5b5b;
+}
 
 /*Contenu de la page */
 html, body{

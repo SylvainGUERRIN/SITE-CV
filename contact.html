@@ -67,29 +67,30 @@
                   </div>
               </div>
               <div class="row">
-                  <form class="well col-lg-offset-1 col-lg-10 col-lg-offset-1 col-md-offset-1 col-md-10 col-md-offset-1 col-sm-offset-1 col-sm-10 col-sm-offset-1 col-xs-offset-1 col-xs-10 col-xs-offset-1" name="contact" method="post" data-netlify="true" action="succes.html">
+                  <form class="well col-lg-offset-1 col-lg-10 col-lg-offset-1 col-md-offset-1 col-md-10 col-md-offset-1 col-sm-offset-1 col-sm-10 col-sm-offset-1 col-xs-offset-1 col-xs-10 col-xs-offset-1" name="contact" method="post" data-netlify="true" action="succes.html" onsubmit="">
                       <div class="form-group">
                           <legend><strong>ME CONTACTER</strong></legend>
                       </div>
                       <div class="form-group row">
                           <label for="nom" class="col-xs-4">VOTRE NOM : </label>
-                          <input type="text" name="name" class="col-xs-8" placeholder="">
+                          <input id="name" type="text" name="name" class="champ col-xs-8" placeholder=""><div class="erreur-message">erreur</div>
                       </div>
                       <div class="form-group row">
                           <label for="nom" class="col-xs-4">VOTRE EMAIL : </label>
-                          <input type="email" name="email" class="col-xs-8" placeholder="">
+                          <input id="email" type="email" name="email" class="champ col-xs-8" placeholder=""><div class="erreur-message">erreur</div>
                       </div>
                       <div class="form-group row">
                           <label for="sujet" class="col-xs-4">SUJET : </label>
-                          <input type="text" name="subject" class="col-xs-8" placeholder="">
+                          <input id="subject" type="text" name="subject" class="champ col-xs-8" placeholder=""><div class="erreur-message">erreur</div>
                       </div>
                       <div class="form-group row">
                           <label for="message" class="col-xs-4">MESSAGE : </label>
                           <textarea name="message" id="textarea" class="col-xs-8" cols="30" rows="8"></textarea>
                       </div>
                       <div class="form-group row">
-                          <button type="submit" class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 btn btn-primary"><strong>ENVOYER</strong></button>
+                          <button id="envoi" type="submit" class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 btn btn-primary"><strong>ENVOYER</strong></button>
                       </div>
+                      
                   </form>
               </div>
            </div>
@@ -100,5 +101,6 @@
        </div>
        <script src="scripts/jquery-3.3.1.min.js"></script>
        <script src="css/bootstrap/js/bootstrap.min.js"></script>
+       <script src="scripts/formulaire.js"></script>
     </body>
 </html>
